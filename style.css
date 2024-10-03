@@ -1,14 +1,14 @@
 .body {
   font-family: "Poppins-bold", sans-serif;
+  width: 375px;
 }
 
 .mainsection {
   width: 375px;
   height: 604px;
   top: 92px;
-  padding: 114px 24px 114px 24px;
   gap: 12px;
-  opacity: 0;
+  background-image: url('background1.png');
 }
 
 .header {
@@ -102,4 +102,11 @@
   height: 20px;
   top: 470px;
   left: 180px;
+}
+
+.bgImage {
+  position: absolute;
+  top: 80px;
+  right: 8px;
+  z-index: -1;
 }
